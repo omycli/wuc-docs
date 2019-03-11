@@ -98,7 +98,7 @@
             </table>
         </td>
         <td width="30%" height="100%">
-            <img src="../_image/background.png" alt="我的照片" />
+            <img src="https://omycli.github.io/wuc-docs/_image/background.png" alt="深色背景" />
         </td>
     </tr>
 </table>
@@ -198,7 +198,7 @@
             </table>
         </td>
         <td width="30%" height="100%">
-            <img src="../_image/bg-light.jpg" alt="我的照片" />
+            <img src="https://omycli.github.io/wuc-docs/_image/bg-light.jpg" alt="我的照片" />
         </td>
     </tr>
 </table>
@@ -253,7 +253,7 @@
             </table>
         </td>
         <td width="30%" height="100%">
-            <img src="../_image/bg-gra.png" alt="我的照片" />
+            <img src="https://omycli.github.io/wuc-docs/_image/bg-gra.png" alt="我的照片" />
         </td>
     </tr>
 </table>
