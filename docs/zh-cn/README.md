@@ -1,9 +1,5 @@
 # 快速上手
 
-## 使用之前
-
-在开始使用之前，你需要先阅读 [微信小程序自定义组件](https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component/) 的相关文档。
-
 ## 如何使用
 
 首先到 [GitHub](https://github.com/omycli/mpvueBase) 下载代码,然后
