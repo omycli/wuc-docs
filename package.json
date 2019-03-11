@@ -1,0 +1,13 @@
+{
+    "name": "wuc-docs",
+    "version": "1.0.0",
+    "description": "Wuc Docs.",
+    "directories": {
+        "doc": "docs"
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {
+        "start": "docsify serve docs"
+    }
+}
