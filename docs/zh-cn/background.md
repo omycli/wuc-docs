@@ -253,27 +253,116 @@
     </tr>
 </table>
 
-## 图片背景
+## 背景渲染
 
+>包括图片背景和视频背景
+
+
+| 参数名      | 类型   | 默认值 | 描述                 |
+| ----------- | ------ | ------ | -------------------- |
+| type        | String | image  | 背景类型             |
+| link        | String | 空     | 背景图片（视频）链接 |
+| extendClass | String | 空     | 扩展css类            |
+
+### 图片背景
 ![图片背景](../_image/bg-image.png)
 ```html
 <template>
-    <bg-image img="https://albedo-theme.com/wp-content/uploads/2016/08/pexels-photo-26180.jpg">
+    <bg-render 
+        link="https://albedo-theme.com/wp-content/uploads/2016/08/pexels-photo-26180.jpg" 
+        extend-class="bg-mask padding-tb-xl">
         <div class="padding-xl text-white">
             <div class="padding-xs text-xl">我和春天有个约会</div>
             <div class="padding-xs">I Have a Date with Spring</div>
         </div>
-    </bg-image>
+    </bg-render>
 </template>
 
 <script>
-import BgImage from "@/components/basics/bgImage";
+import BgRender from "@/components/basics/bgRender";
 export default {
   data() {
     return {};
   },
 
-  components: { BgImage },
+  components: { BgRender },
+
+  computed: {},
+
+  methods: {},
+
+  mounted() {}
+};
+</script>
+```
+
+### 视频背景
+![视频背景](../_image/bg-video.gif)
+```html
+<template>
+    <bg-render 
+        type="video" 
+        link="https://www.weilanwl.com/theme/wl/assets/images/slider1.mp4" 
+        extend-class="bg-mask">
+        <cover-view class="padding-xl text-white">
+          <cover-view class="padding-xs text-xl">开源是创新的动力之源</cover-view>
+          <cover-view
+            class="padding-xs"
+          >Open Source is the Power Source of Innovation</cover-view>
+        </cover-view>
+    </bg-render>
+</template>
+
+<script>
+import BgRender from "@/components/basics/bgRender";
+export default {
+  data() {
+    return {};
+  },
+
+  components: { BgRender },
+
+  computed: {},
+
+  methods: {},
+
+  mounted() {}
+};
+</script>
+```
+
+### 透明背景(文字层)
+![透明背景(文字层)](../_image/bg-trans.png)
+```html
+<template>
+    <div class="grid col-2 padding-sm">
+        <div class="padding-sm">
+          <bg-render
+            link="https://image.weilanwl.com/img/square-3.jpg"
+            extend-class="padding-bottom-xl"
+          >
+            <div class="bg-shadeTop padding padding-bottom-xl">上面开始</div>
+          </bg-render>
+        </div>
+        <div class="padding-sm">
+          <bg-render
+            link="https://image.weilanwl.com/img/square-3.jpg"
+            extend-class="padding-top-xl"
+          >
+            <div class="bg-shadeBottom padding padding-top-xl">下面开始</div>
+          </bg-render>
+        </div>
+      </div>
+</template>
+
+<script>
+import BgRender from "@/components/basics/bgRender";
+export default {
+  data() {
+    return {};
+  },
+
+  components: { BgRender },
 
   computed: {},
 
