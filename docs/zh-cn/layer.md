@@ -230,7 +230,7 @@
 ### 内外边距
 >{size}的尺寸有xs/sm/df/lg/xl
 
-说明  |className
+说明  | className
 ------------ | -------------
 外边距 | margin-{size}
 内边距 | padding-{size}
