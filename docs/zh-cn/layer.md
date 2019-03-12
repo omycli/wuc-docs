@@ -3,39 +3,147 @@
 ## flex布局
 ### 固定尺寸
 
-说明  |className
------------- | -------------
-xs(20%) | basis-xs
-sm(40%) | basis-sm
-sub(50%) | basis-sub
-lg(60%) | basis-lg
-xl(80%) | basis-xl
+<table>
+    <tr>
+        <td width="20%">
+            <table>
+                <thead>
+                    <tr>
+                        <th>说明</th>
+                        <th>className</th>
+                    </tr>
+                </thead>
+            <tr>
+                <td>xs(20%)</td>
+                <td>basis-xs</td>
+            </tr>
+            <tr>
+                <td>sm(40%)</td>
+                <td>basis-sm</td>
+            </tr>
+            <tr>
+                <td>sub(50%)</td>
+                <td>basis-sub</td>
+            </tr>
+            <tr>
+                <td>lg(60%) </td>
+                <td>basis-lg</td>
+            </tr>
+            <tr>
+                <td>xl(80%)</td>
+                <td>basis-xl</td>
+            </tr>
+            </table>
+        </td>
+        <td width="30%" height="100%">
+            <img src="https://omycli.github.io/wuc-docs/_image/flex-g.png" alt="固定尺寸" />
+        </td>
+    </tr>
+</table>
 
 ### 比例布局
 
-说明  |className
------------- | -------------
-1:1 | flex-sub
-1:2 | flex-twice
-1:3 | flex-treble
+<table>
+    <tr>
+        <td width="20%">
+            <table>
+                <thead>
+                    <tr>
+                        <th>说明</th>
+                        <th>className</th>
+                    </tr>
+                </thead>
+            <tr>
+                <td>1:1</td>
+                <td>flex-sub</td>
+            </tr>
+            <tr>
+                <td>1:2</td>
+                <td>flex-twice</td>
+            </tr>
+            <tr>
+                <td>1:3</td>
+                <td>flex-treble</td>
+            </tr>
+            </table>
+        </td>
+        <td width="30%" height="100%">
+            <img src="https://omycli.github.io/wuc-docs/_image/flex-b.png" alt="比例布局" />
+        </td>
+    </tr>
+</table>
 
 ### 水平对齐
 
-说明  |className
------------- | -------------
-左对齐 | justify-start
-右对齐 | justify-end
-居中对齐 | justify-center
-两边对齐 | justify-between
-均匀分散对齐 | justify-around
+<table>
+    <tr>
+        <td width="20%">
+            <table>
+                <thead>
+                    <tr>
+                        <th>说明</th>
+                        <th>className</th>
+                    </tr>
+                </thead>
+            <tr>
+                <td>左对齐</td>
+                <td>justify-start</td>
+            </tr>
+            <tr>
+                <td>右对齐</td>
+                <td>justify-end</td>
+            </tr>
+            <tr>
+                <td>居中对齐</td>
+                <td>justify-center</td>
+            </tr>
+            <tr>
+                <td>两边对齐</td>
+                <td>justify-between</td>
+            </tr>
+            <tr>
+                <td>均匀分散对齐</td>
+                <td>justify-around</td>
+            </tr>
+            </table>
+        </td>
+        <td width="30%" height="100%">
+            <img src="https://omycli.github.io/wuc-docs/_image/flex-b.png" alt="比例布局" />
+        </td>
+    </tr>
+</table>
 
 ### 垂直对齐
 
-说明  |className
------------- | -------------
-上对齐 | align-start
-下对齐 | align-end
-居中对齐 | align-center
+<table>
+    <tr>
+        <td width="20%">
+            <table>
+                <thead>
+                    <tr>
+                        <th>说明</th>
+                        <th>className</th>
+                    </tr>
+                </thead>
+            <tr>
+                <td>上对齐</td>
+                <td>align-start</td>
+            </tr>
+            <tr>
+                <td>下对齐</td>
+                <td>align-end</td>
+            </tr>
+            <tr>
+                <td>居中对齐</td>
+                <td>align-center</td>
+            </tr>
+            </table>
+        </td>
+        <td width="30%" height="100%">
+            <img src="https://omycli.github.io/wuc-docs/_image/flex-b.png" alt="比例布局" />
+        </td>
+    </tr>
+</table>
 
 ## Grid布局
 

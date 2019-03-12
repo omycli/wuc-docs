@@ -6,7 +6,7 @@
 
 * 简单易用
 * 方便快捷
-* 基于用户体验
+* 简约至上
 
 [GitHub](https://github.com/omycli/mpvueBase)
 [Get Started](/zh-cn/)

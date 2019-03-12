@@ -198,7 +198,7 @@
             </table>
         </td>
         <td width="30%" height="100%">
-            <img src="https://omycli.github.io/wuc-docs/_image/bg-light.jpg" alt="我的照片" />
+            <img src="https://omycli.github.io/wuc-docs/_image/bg-light.jpg" alt="淡色背景" />
         </td>
     </tr>
 </table>
@@ -206,7 +206,7 @@
 ## 渐变背景
 <table>
     <tr>
-        <td width="20%">
+        <td width="30%">
             <table>
                 <thead>
                     <tr>
@@ -219,11 +219,6 @@
                 <td>魅红</td>
                 <td>bg-gradual-red</td>
                 <td>#f43f3b - #ec008c</td>
-            </tr>
-            <tr>
-                <td>桔橙</td>
-                <td>bg-orange light</td>
-                <td>#f37b1d</td>
             </tr>
             <tr>
                 <td>鎏金</td>
@@ -253,7 +248,7 @@
             </table>
         </td>
         <td width="30%" height="100%">
-            <img src="https://omycli.github.io/wuc-docs/_image/bg-gra.png" alt="我的照片" />
+            <img src="https://omycli.github.io/wuc-docs/_image/bg-gra.png" alt="渐变背景" />
         </td>
     </tr>
 </table>
