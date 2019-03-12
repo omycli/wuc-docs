@@ -103,7 +103,31 @@
             </table>
         </td>
         <td width="30%" height="100%">
-            <img src="https://omycli.github.io/wuc-docs/_image/text-color.png" alt="浮动" />
+            <img src="https://omycli.github.io/wuc-docs/_image/text-color.png" alt="文字颜色" />
         </td>
     </tr>
 </table>
+
+## 文字截断
+> 文字截断需要固定宽度
+
+| 说明  | className 
+| ------------- | --------- 
+| 文字截断          | text-cut  
+
+## 文字对齐
+
+| 说明  | className 
+| -------------- | --------- 
+| 左对齐          | text-left  
+| 居中对齐          | text-center  
+| 右对齐          | text-right  
+
+## 特殊文字
+
+| 说明  | className 
+| -------------- | --------- 
+| 价格文本 | text-price  
+| 英文单词首字母大写 | text-Abc  
+| 全部字母大写 | text-ABC  
+| 全部字母小写 | text-abc  
