@@ -3,3 +3,5 @@
 * [背景颜色](/zh-cn/background.md)
 
 * [文字](/zh-cn/text.md)
+
+* [按钮](/zh-cn/button.md)
