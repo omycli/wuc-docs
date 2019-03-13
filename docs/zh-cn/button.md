@@ -179,7 +179,48 @@
 </table>
 
 ```html
-示例代码 
+示例代码
 <button class="cu-btn round bg-red shadow">嫣红</button>
 <button class="cu-btn round lines-red shadow">嫣红</button>
+```
+
+## 块状按钮
+
+![块状按钮](../_image/btn-block.png)
+
+```html
+示例代码
+<button class="cu-btn bg-grey lg">玄灰</button>
+<button class="cu-btn bg-red margin-tb-sm lg">嫣红</button>
+```
+
+## 无效状态
+
+![无效状态](../_image/btn-disabled.png)
+
+```html
+示例代码
+
+<button class="cu-btn block bg-blue margin-tb-sm lg" disabled type>
+    无效状态
+</button>
+<button class="cu-btn block line-blue margin-tb-sm lg" disabled>
+    无效状态
+</button>
+```
+
+## 按钮加图标
+
+![按钮加图标](../_image/btn-icon.png)
+
+```html
+示例代码
+
+<button class="cu-btn block line-orange lg">
+    <text class="icon-upload"></text>图标
+</button>
+<button class="cu-btn block bg-blue margin-tb-sm lg">
+    <text class="icon-loading2 iconfont-spin"></text>加载
+</button>
+<button class="cu-btn block bg-black margin-tb-sm lg" loading>微信加载</button>
 ```
