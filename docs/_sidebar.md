@@ -5,3 +5,5 @@
 * [文字](/zh-cn/text.md)
 
 * [按钮](/zh-cn/button.md)
+
+* [边框阴影](/zh-cn/shadow.md)
