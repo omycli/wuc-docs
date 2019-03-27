@@ -265,7 +265,7 @@
 | extendClass | String | 空     | 扩展css类            |
 
 ### 图片背景
-![图片背景](../_image/bg-image.png)
+![图片背景](../../_image/bg-image.png)
 ```html
 <template>
     <bg-render 
@@ -297,7 +297,7 @@ export default {
 ```
 
 ### 视频背景
-![视频背景](../_image/bg-video.gif)
+![视频背景](../../_image/bg-video.gif)
 ```html
 <template>
     <bg-render 
@@ -332,7 +332,7 @@ export default {
 ```
 
 ### 透明背景(文字层)
-![透明背景(文字层)](../_image/bg-trans.png)
+![透明背景(文字层)](../../_image/bg-trans.png)
 ```html
 <template>
     <div class="grid col-2 padding-sm">

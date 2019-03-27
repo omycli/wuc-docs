@@ -186,7 +186,7 @@
 
 ## 块状按钮
 
-![块状按钮](../_image/btn-block.png)
+![块状按钮](../../_image/btn-block.png)
 
 ```html
 示例代码
@@ -196,7 +196,7 @@
 
 ## 无效状态
 
-![无效状态](../_image/btn-disabled.png)
+![无效状态](../../_image/btn-disabled.png)
 
 ```html
 示例代码
@@ -211,7 +211,7 @@
 
 ## 按钮加图标
 
-![按钮加图标](../_image/btn-icon.png)
+![按钮加图标](../../_image/btn-icon.png)
 
 ```html
 示例代码
