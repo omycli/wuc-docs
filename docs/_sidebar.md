@@ -13,3 +13,5 @@
 * [组件](/zh-cn/components/README.md)
 
   * [顶部操作栏](/zh-cn/components/custom.md) 
+
+  * [星级评价](/zh-cn/components/rater.md) 

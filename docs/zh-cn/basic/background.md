@@ -68,11 +68,6 @@
             <tr>
                 <td>棕褐</td>
                 <td>bg-brown</td>
-                <td>#e03997</td>
-            </tr>
-            <tr>
-                <td>桃粉</td>
-                <td>bg-pink</td>
                 <td>#a5673f</td>
             </tr>
             <tr>
@@ -168,11 +163,6 @@
             <tr>
                 <td>棕褐</td>
                 <td>bg-brown light</td>
-                <td>#e03997</td>
-            </tr>
-            <tr>
-                <td>桃粉</td>
-                <td>bg-pink light</td>
                 <td>#a5673f</td>
             </tr>
             <tr>

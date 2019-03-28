@@ -154,6 +154,7 @@ uni.setStorageSync("StatusBar", StatusBar);
 ![多级导航](../../_image/custom-2.png)
 
 ```html
+<template>
 <custom name="顶部操作栏" bg-color="bg-gradual-blue"></custom>
 
 <custom bg-color="bg-gradual-red margin-tb" leftMore>
@@ -181,4 +182,36 @@ uni.setStorageSync("StatusBar", StatusBar);
     </scroll-view>
     </div>
 </custom>
+</template>
+
+<script>
+import Custom from "@/components/custom";
+import { obj2style } from "@/utils/index";
+export default {
+  data() {
+    return {
+      TabCur: 0,
+      tabNav: ["首页", "列表", "我的"]
+    };
+  },
+
+  components: { Custom },
+
+  computed: {
+    conTop() {
+      let style = {};
+      style["top"] = uni.getStorageSync("StatusBar") + "px";
+      return obj2style(style);
+    }
+  },
+
+  methods: {
+    tabSelect(index) {
+      this.TabCur = index;
+    }
+  },
+
+  mounted() {}
+};
+</script>
 ```
