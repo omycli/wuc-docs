@@ -15,3 +15,5 @@
   * [顶部操作栏](/zh-cn/components/custom.md) 
 
   * [星级评价](/zh-cn/components/rater.md) 
+
+  * [手风琴](/zh-cn/components/rater.md) 
