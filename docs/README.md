@@ -5,7 +5,12 @@
 ### 如何使用
 
 首先到 [GitHub](https://github.com/omycli/mpvueBase) 下载代码,然后
-* 全局安装vue-cl `$ npm install -g @vue/cli`
+* 全局安装vue-cl   
+```
+  $ npm install -g @vue/cli
+  #OR
+  yarn global add @vue/cli
+```
 * 安装依赖 `$ yarn`
 
 * 编译运行

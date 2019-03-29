@@ -17,3 +17,5 @@
   * [星级评价](/zh-cn/components/rater.md) 
 
   * [手风琴](/zh-cn/components/accordion.md) 
+
+  * [导航栏](/zh-cn/components/tab.md) 

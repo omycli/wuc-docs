@@ -1,5 +1,4 @@
 # 手风琴
->手风琴以css的className为基础进行传入参数渲染页面样式。
 
 ![手风琴](../../_image/accordion.png)
 
