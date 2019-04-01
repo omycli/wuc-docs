@@ -29,18 +29,10 @@
 
 ```html
 <template>
-  <div>
-    <custom name="顶部操作栏" bg-color="bg-gradual-pink fixed"></custom>
-    <div class="cu-bar bg-white">
-      <div class="action">
-        <text class="icon-title text-pink"></text>
-        <text>一级顶部操作栏</text>
-      </div>
-    </div>
-
-    <custom
+<div>
+  <custom
       name="居左首页"
-      bg-color="bg-gradual-pink"
+      bg-color="bg-gradual-blue"
       open-type="switchTab"
       url="/pages/basics/index"
     ></custom>
@@ -53,7 +45,7 @@
 
     <custom bg-color="bg-black margin-top" freebar>
       <div slot="freebar">
-        <div class="action">
+        <div class="action" @tap="close">
           <text class="icon-close"></text>关闭
         </div>
         <div class="content" :style="conTop">带按钮的首页</div>
@@ -71,14 +63,14 @@
 
     <custom
       name="图片背景首页"
-      bg-color="margin-top"
-      bg-img="https://image.weilanwl.com/color2.0/plugin/cjkz2329.jpg"
+      bg-color="margin-top text-black text-blod"
+      bg-img="https://static.veer.com/veer/static/resources/keyword/2018-05-30/a207217f05aa426f821547508320178b.jpg"
       noneBg
     ></custom>
 
     <custom
       bg-color="margin-top"
-      bg-img="https://image.weilanwl.com/color2.0/plugin/cjkz2329.jpg"
+      bg-img="https://goss1.veer.com/creative/vcg/veer/612/veer-148024919.jpg"
       noneBg
       freebar
     >
