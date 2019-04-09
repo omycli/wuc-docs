@@ -27,17 +27,19 @@
     <custom name="横向选项卡" bg-color="bg-cyan fixed"></custom>
 
     <div>
-      <div class="cu-bar bg-white solid-bottom">
-        <div class="action">
-          <text class="icon-titles text-orange"></text>基本使用(只支持点击标签切换)
-        </div>
-      </div>
       <wuc-tab
         :tab-list="tabList"
         :tabCur.sync="TabCur"
-        tab-class="bg-white text-black"
+        :tab-style="CustomBar"
+        tab-class="text-center bg-white nav fixed"
+        select-class="text-blue"
         @change="tabChange"
       ></wuc-tab>
+      <div class="cu-bar bg-white solid-bottom" style="margin-top:100upx">
+        <div class="action">
+          <text class="icon-titles text-orange"></text>基本使用(tab固定，只支持点击标签切换)
+        </div>
+      </div>
       <div
         class="bg-white padding margin text-center text-black"
       >{{tabList[TabCur].name}}</div>
@@ -165,6 +167,7 @@
 <script>
 import Custom from "@/components/custom";
 import WucTab from "@/components/tab";
+import { obj2style } from "@/utils/index";
 export default {
   data() {
     return {
@@ -205,7 +208,13 @@ export default {
 
   components: { Custom, WucTab },
 
-  computed: {},
+  computed: {
+    CustomBar() {
+      let style = {};
+      style["top"] = uni.getStorageSync("CustomBar") + "px";
+      return obj2style(style);
+    }
+  },
 
   methods: {
     tabChange(index) {
