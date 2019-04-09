@@ -18,4 +18,4 @@
 
   * [手风琴](/zh-cn/components/accordion.md) 
 
-  * [导航栏](/zh-cn/components/tab.md) 
+  * [横向选项卡](/zh-cn/components/tab.md) 
