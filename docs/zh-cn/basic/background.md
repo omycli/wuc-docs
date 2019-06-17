@@ -1,6 +1,63 @@
+## 中国风
+
+<table>
+    <tr>
+        <td width="30%">
+            <table>
+                <thead>
+                    <tr>
+                        <th>说明</th>
+                        <th>className</th>
+                        <th>颜色编号</th>
+                    </tr>
+                </thead>
+            <tr>
+                <td>墨紫</td>
+                <td>bg-mozi</td>
+                <td>#310f1b</td>
+            </tr>
+            <tr>
+                <td>檀紫</td>
+                <td>bg-tanzi</td>
+                <td>#381924</td>
+            </tr>
+            <tr>
+                <td>青莲</td>
+                <td>bg-qinglian</td>
+                <td>#8b2671</td>
+            </tr>
+            <tr>
+                <td>水红</td>
+                <td>bg-shuihong</td>
+                <td>#f1c4cd</td>
+            </tr>
+            <tr>
+                <td>槿紫</td>
+                <td>bg-jinzi</td>
+                <td>#806d9e</td>
+            </tr>
+            <tr>
+                <td>花青</td>
+                <td>bg-huaqing</td>
+                <td>#2376b7</td>
+            </tr>
+            <tr>
+                <td>釉蓝</td>
+                <td>bg-youlan</td>
+                <td>#1781b5</td>
+            </tr>
+            </table>
+        </td>
+        <td width="30%" height="100%">
+            <img src="https://omycli.github.io/wuc-docs/_image/chinese.png" alt="中国风" />
+        </td>
+    </tr>
+</table>
+
 # 背景颜色
-> 背景阴影效果class `shadow-blur`  
-> 背景圆边角效果class `radius`
+
+> 背景阴影效果 class `shadow-blur`  
+> 背景圆边角效果 class `radius`
 
 ## 深色背景
 
@@ -99,6 +156,7 @@
 </table>
 
 ## 淡色背景
+
 <table>
     <tr>
         <td width="20%">
@@ -194,6 +252,7 @@
 </table>
 
 ## 渐变背景
+
 <table>
     <tr>
         <td width="30%">
@@ -245,22 +304,24 @@
 
 ## 背景渲染
 
->包括图片背景和视频背景
-
+> 包括图片背景和视频背景
 
 | 参数名      | 类型   | 默认值 | 描述                 |
 | ----------- | ------ | ------ | -------------------- |
 | type        | String | image  | 背景类型             |
 | link        | String | 空     | 背景图片（视频）链接 |
-| extendClass | String | 空     | 扩展css类            |
+| extendClass | String | 空     | 扩展 css 类          |
 
 ### 图片背景
+
 ![图片背景](../../_image/bg-image.png)
+
 ```html
 <template>
-    <bg-render 
-        link="https://albedo-theme.com/wp-content/uploads/2016/08/pexels-photo-26180.jpg" 
-        extend-class="bg-mask padding-tb-xl">
+    <bg-render
+        link="https://albedo-theme.com/wp-content/uploads/2016/08/pexels-photo-26180.jpg"
+        extend-class="bg-mask padding-tb-xl"
+    >
         <div class="padding-xl text-white">
             <div class="padding-xs text-xl">我和春天有个约会</div>
             <div class="padding-xs">I Have a Date with Spring</div>
@@ -269,96 +330,67 @@
 </template>
 
 <script>
-import BgRender from "@/components/basics/bgRender";
-export default {
-  data() {
-    return {};
-  },
+    import BgRender from '@/components/basics/bgRender';
+    export default {
+        data() {
+            return {};
+        },
 
-  components: { BgRender },
+        components: { BgRender },
 
-  computed: {},
+        computed: {},
 
-  methods: {},
+        methods: {},
 
-  mounted() {}
-};
-</script>
-```
-
-### 视频背景
-![视频背景](../../_image/bg-video.gif)
-```html
-<template>
-    <bg-render 
-        type="video" 
-        link="https://www.weilanwl.com/theme/wl/assets/images/slider1.mp4" 
-        extend-class="bg-mask">
-        <cover-view class="padding-xl text-white">
-          <cover-view class="padding-xs text-xl">开源是创新的动力之源</cover-view>
-          <cover-view
-            class="padding-xs"
-          >Open Source is the Power Source of Innovation</cover-view>
-        </cover-view>
-    </bg-render>
-</template>
-
-<script>
-import BgRender from "@/components/basics/bgRender";
-export default {
-  data() {
-    return {};
-  },
-
-  components: { BgRender },
-
-  computed: {},
-
-  methods: {},
-
-  mounted() {}
-};
+        mounted() {}
+    };
 </script>
 ```
 
 ### 透明背景(文字层)
+
 ![透明背景(文字层)](../../_image/bg-trans.png)
+
 ```html
 <template>
     <div class="grid col-2 padding-sm">
         <div class="padding-sm">
-          <bg-render
-            link="https://image.weilanwl.com/img/square-3.jpg"
-            extend-class="padding-bottom-xl"
-          >
-            <div class="bg-shadeTop padding padding-bottom-xl">上面开始</div>
-          </bg-render>
+            <bg-render
+                link="https://images.pexels.com/photos/269923/pexels-photo-269923.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                extend-class="padding-bottom-xl"
+            >
+                <div class="bg-shadeTop padding padding-bottom-xl">
+                    记录生活
+                </div>
+            </bg-render>
         </div>
         <div class="padding-sm">
-          <bg-render
-            link="https://image.weilanwl.com/img/square-3.jpg"
-            extend-class="padding-top-xl"
-          >
-            <div class="bg-shadeBottom padding padding-top-xl">下面开始</div>
-          </bg-render>
+            <bg-render
+                link="https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                extend-class="padding-top-xl"
+            >
+                <div class="bg-shadeBottom padding padding-top-xl">
+                    山顶最美
+                </div>
+            </bg-render>
         </div>
-      </div>
+    </div>
 </template>
 
 <script>
-import BgRender from "@/components/basics/bgRender";
-export default {
-  data() {
-    return {};
-  },
+    import BgRender from '@/components/basics/bgRender';
+    export default {
+        data() {
+            return {};
+        },
 
-  components: { BgRender },
+        components: { BgRender },
 
-  computed: {},
+        computed: {},
 
-  methods: {},
+        methods: {},
 
-  mounted() {}
-};
+        mounted() {}
+    };
 </script>
 ```

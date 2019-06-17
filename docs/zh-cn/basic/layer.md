@@ -232,62 +232,6 @@
     </tr>
 </table>
 
-### 等高
-
-<table>
-    <tr>
-        <td width="20%">
-            <table>
-                <thead>
-                    <tr>
-                        <th>说明</th>
-                        <th>className</th>
-                    </tr>
-                </thead>
-            <tr>
-                <td>分列数</td>
-                <td>col-(Number)</td>
-            </tr>
-            <tr>
-                <td>等高属性</td>
-                <td>grid-square</td>
-            </tr>
-            </table>
-        </td>
-        <td width="30%" height="100%">
-            <img src="https://omycli.github.io/wuc-docs/_image/grid-h.png" alt="等高" />
-        </td>
-    </tr>
-</table>
-
-## 辅助布局
-### 浮动
-<table>
-    <tr>
-        <td width="20%">
-            <table>
-                <thead>
-                    <tr>
-                        <th>说明</th>
-                        <th>className</th>
-                    </tr>
-                </thead>
-            <tr>
-                <td>左浮动</td>
-                <td>fl</td>
-            </tr>
-            <tr>
-                <td>右浮动</td>
-                <td>fr</td>
-            </tr>
-            </table>
-        </td>
-        <td width="30%" height="100%">
-            <img src="https://omycli.github.io/wuc-docs/_image/layer-lr.png" alt="浮动" />
-        </td>
-    </tr>
-</table>
-
 ### 内外边距
 >{size}的尺寸有xs/sm/df/lg/xl
 
